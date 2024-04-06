@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    height: 5rem;
+    line-height: 5rem;
+    font-size: 2.5rem;
+}
+/* Rock Paper Scissors Images */
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+.choice {
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice:hover{
+    cursor: pointer;
+    background-color: burlywood;
+}
+img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* Score Board */
+.score_board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+#user_score, #computer_score{
+    font-size: 4rem;
+}
+
+/* MSG Container */
+.msg_container{
+    margin-top: 1.8rem;
+}
+#msg {
+    background-color: #365486;
+    color: #fff;
+    font-size: 2rem;
+    display: inline;
+    padding: 0.4rem 1.4rem;
+    border-radius: 1.3rem;
+}
+.you {
+    color: green;
+}
+.computer {
+    color: brown;
+}
